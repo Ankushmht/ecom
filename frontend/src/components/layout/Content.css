@@ -1,0 +1,32 @@
+.content{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.filter
+{
+    display:inline-block;
+    width: 25%;
+}
+.cards
+{
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.productPics{
+    width:52%;
+    display: inline-block;
+    vertical-align: top;
+}
+.productDesc
+{
+    width:36%;
+    display: inline-block;
+    padding:5%;
+}
+.recently-viewAndSimilar{
+    margin-top: 20px;
+}

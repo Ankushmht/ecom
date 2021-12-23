@@ -1,0 +1,40 @@
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .size,.color,.price
+  {
+    display: block;
+    border-top:grey 1px dotted;
+  }
+  .sizeList,.colorList,.priceList
+  {
+      list-style: none;
+  }
+  .sizeHeading, .sizeList a,.colorHeading, .colorList a,.priceHeading, .priceList a
+  {
+    padding: 6px 16px;
+    display: block;
+    cursor:pointer;
+    text-decoration: none;
+  }      
+  .textSize
+  {
+    width:80%;
+    display: inline-block;
+    font-weight: bold;
+  }
+  *, ::after, ::before {
+    box-sizing: initial;
+}

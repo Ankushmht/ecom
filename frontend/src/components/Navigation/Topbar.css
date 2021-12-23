@@ -1,0 +1,32 @@
+.yellowStrip
+{
+    line-height: 30px;
+    background-color: #f8eb27;
+    height:30px;    
+    display: block;
+    
+}
+.blackStrip
+{
+    line-height: 30px;
+    background-color: #000;
+    height:30px;    
+    display: block;
+    color:white;
+}
+.insideBlackStrip
+{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    
+}
+.insideBlackStrip a{
+padding:9px 16px;
+text-decoration: none;
+color: #fff;
+
+}
+.insideBlackStrip a:hover{
+    color: yellow;
+}
